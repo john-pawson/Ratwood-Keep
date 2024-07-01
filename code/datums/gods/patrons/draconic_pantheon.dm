@@ -2,7 +2,7 @@
 	name = null
 	associated_faith = /datum/faith/draconic
 	t0 = /obj/effect/proc_holder/spell/invoked/lesser_heal
-  t1 = /obj/effect/proc_holder/spell/invoked/sacred_flame_rogue
+	t1 = /obj/effect/proc_holder/spell/invoked/sacred_flame_rogue
 
 /datum/patron/draconic/anarinus
 	name = "Anarinus"
