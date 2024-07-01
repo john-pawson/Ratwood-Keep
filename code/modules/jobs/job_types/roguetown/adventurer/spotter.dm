@@ -1,6 +1,6 @@
 /datum/job/roguetown/spotter
 	title = "Spotter"
-	flag = Spotter
+	flag = SPOTTER
 	department_flag = KOBOLD
 	faction = "Station"
 	total_positions = 6
