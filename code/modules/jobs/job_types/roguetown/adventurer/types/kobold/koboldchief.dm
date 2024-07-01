@@ -10,14 +10,14 @@
 		"Kobold",
 	)
 	allowed_sexes = list(MALE, FEMALE)
-	tutorial = "The Divine is all that matters in a world of the immoral. The Weeping God left his children to rule over us mortals and you will preach their wisdom to any who still heed their will. The faithless are growing in number, it is up to you to shepard them to a Gods-fearing future."
+	tutorial = "You have a sacred duty to the kobolds of your village community, advising and counselling where necessary. Life in the Bog isn't easy, and your flock is prone to danger more than many others, particularly given the poor state of your chosen settlement. Through perserverance and commitment to the Great Dragons, perhaps you can establish a great home for your people to thrive in?"
 	whitelist_req = FALSE
 
 	spells = list(/obj/effect/proc_holder/spell/self/convertrole/whelp, /obj/effect/proc_holder/spell/self/grant_title)
 	outfit = /datum/outfit/job/roguetown/chieftain
 
 	display_order = JDO_CHIEFTAIN
-	min_pq = 5
+	min_pq = 6
 	max_pq = null
 
 /datum/outfit/job/roguetown/chieftain
