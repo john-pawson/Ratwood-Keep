@@ -198,6 +198,14 @@
 #define DEATHKNIGHT (1<<1)
 #define SKELETON	(1<<2)
 
+#define KOBOLD		(1<<10)
+
+#define CHIEFTAIN	(1<<1)
+#define DRAGONGUARD	(1<<2)
+#define DEDICANT	(1<<2)
+#define SPOTTER		(1<<3)
+#define TOILER		(1<<4)
+
 #define JCOLOR_NOBLE "#aa83b9"
 #define JCOLOR_COURTIER "#81adc8"
 #define JCOLOR_CHURCH "#c0ba8d"
@@ -290,3 +298,10 @@
 #define JDO_GOBLINCOOK 37
 #define JDO_GOBLINGUARD 38
 #define JDO_GOBLINSMITH 39
+
+#define JDO_CHIEFTAIN 40
+#define JDO_DRAGONGUARD 41
+#define JDO_DEDICANT 42
+#define JDO_SPOTTER 43
+#define JDO_TOILER 43.1
+
