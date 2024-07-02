@@ -72,6 +72,8 @@
 				target.visible_message(span_info("Red flames limn the body of [target] as the impression of justice fills the world!"), span_notice("The promise of injustices to be made right lifts me from my core!"))
 			if(/datum/patron/draconic/sullenheart)
 				target.visible_message(span_info("Black flames limn the body of [target] as the peace of the grave intrudes upon the world!"), span_notice("The promise of eventual rest brings my mind soothing peace for now!"))
+			if(/datum/patron/draconic/nixor)
+				target.visible_message(span_info("White flames limn the body of [target] and the world seems more joyous for a moment!"), span_notice("The promise of joys to be experienced spurs my body forth!"))
 			if(/datum/patron/draconic/decrom)
 				target.visible_message(span_info("Sickly flames limn the body of [target] as malaise is burnt away from the world!"), span_notice("The promise of a world without ailing lightens my burden!"))
 			if(/datum/patron/draconic/magnus)
