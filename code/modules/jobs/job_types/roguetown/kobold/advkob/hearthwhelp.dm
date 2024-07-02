@@ -1,6 +1,6 @@
 /datum/advclass/hearthwhelp
 	name = "Hearthwhelp"
-	tutorial = "There's nothing better in life than seeing hungry kobolds stuffing themselves with your food and ale. It can be a tough life out here, but you make sure to keep everyone in the commuity warm in the glow of your hearth..."
+	tutorial = "There's nothing better in life than seeing hungry kobolds stuffing themselves with your food and ale. It can be a tough life out here, but you make sure to keep everyone in the commuity warm in the glow of your hearth!"
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = list(
 		"Kobold",
