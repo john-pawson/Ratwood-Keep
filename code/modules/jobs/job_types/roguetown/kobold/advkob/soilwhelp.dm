@@ -14,6 +14,12 @@
 
 /datum/outfit/job/roguetown/kobold/soilwhelp/pre_equip(mob/living/carbon/human/H)
 	..()
+	belt = /obj/item/storage/belt/rogue/leather/rope
+	beltr = /obj/item/flashlight/flare/torch/lantern
+	backl = /obj/item/storage/backpack/rogue/satchel
+	head = /obj/item/clothing/head/roguetown/dendormask
+	neck = /obj/item/clothing/neck/roguetown/psicross/wood
+	armor = /obj/item/clothing/suit/roguetown/shirt/robe/dendor
   if(H.mind)
 	  H.mind.adjust_skillrank(/datum/skill/misc/sewing, 1, TRUE)
 	  H.mind.adjust_skillrank(/datum/skill/misc/weaving, 1, TRUE)
