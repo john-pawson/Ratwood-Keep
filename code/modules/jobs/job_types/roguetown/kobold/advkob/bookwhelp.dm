@@ -6,6 +6,7 @@
 		"Kobold",
 	)
 	outfit = /datum/outfit/job/roguetown/kobold/bookwhelp
+	category_tags = list(CTAG_TOILER)
 
 /datum/outfit/job/roguetown/kobold/bookwhelp
 	allowed_patrons = list(/datum/patron/draconic/moonari)
