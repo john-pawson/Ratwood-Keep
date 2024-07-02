@@ -17,15 +17,16 @@
 
 /datum/outfit/job/roguetown/kobold/woodwhelp/pre_equip(mob/living/carbon/human/H)
 	..()
-	H.mind.adjust_skillrank(/datum/skill/combat/axes, 3, TRUE) // AXE MEN! GIVE ME SPLINTERS!
-	H.mind.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE) 
-	H.mind.adjust_skillrank(/datum/skill/misc/swimming, 2, TRUE)
-	H.mind.adjust_skillrank(/datum/skill/misc/climbing, 2, TRUE)
-	H.mind.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)
-	H.mind.adjust_skillrank(/datum/skill/craft/carpentry, 3, TRUE)
-	H.mind.adjust_skillrank(/datum/skill/craft/masonry, 1, TRUE)
-	H.mind.adjust_skillrank(/datum/skill/craft/engineering, 1, TRUE)
-	H.mind.adjust_skillrank(/datum/skill/labor/lumberjacking, 4, TRUE)
+	if(H.mind)
+		H.mind.adjust_skillrank(/datum/skill/combat/axes, 3, TRUE) // AXE MEN! GIVE ME SPLINTERS!
+		H.mind.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE) 
+		H.mind.adjust_skillrank(/datum/skill/misc/swimming, 2, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/misc/climbing, 2, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/craft/carpentry, 3, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/craft/masonry, 1, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/craft/engineering, 1, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/labor/lumberjacking, 4, TRUE)
 	belt = /obj/item/storage/belt/rogue/leather
 	shirt = /obj/item/clothing/suit/roguetown/shirt/shortshirt/random
 	pants = /obj/item/clothing/under/roguetown/trou
