@@ -3,8 +3,8 @@
 	flag = TOILER
 	department_flag = KOBOLD
 	faction = "Station"
-	total_positions = 8
-	spawn_positions = 8
+	total_positions = 10
+	spawn_positions = 10
 	allowed_races = list(
 		"Kobold",
 	)
