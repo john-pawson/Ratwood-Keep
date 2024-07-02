@@ -15,7 +15,7 @@
 /datum/outfit/job/roguetown/kobold/gigglewhelp
 	allowed_patrons = list(/datum/patron/draconic/nixor)
 
-  /datum/outfit/job/roguetown/gigglewhelp/pre_equip(mob/living/carbon/human/H)
+/datum/outfit/job/roguetown/gigglewhelp/pre_equip(mob/living/carbon/human/H)
 	..()
 	shoes = /obj/item/clothing/shoes/roguetown/jester
 	pants = /obj/item/clothing/under/roguetown/tights
