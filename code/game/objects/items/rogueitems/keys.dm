@@ -178,6 +178,56 @@
 	icon_state = "brownkey"
 	lockid = "roomhunt"
 
+//kobold village//
+/obj/item/roguekey/koboldgate
+	name = "kobold village gate key"
+	desc = "A key that opens the gates to the kobold village. It looks old."
+	icon_state = "rustkey"
+	lockid = "koboldgate"
+
+/obj/item/roguekey/koboldgarrison
+	name = "kobold garrison key"
+	desc = "A key for the barracks and armory found on the village"
+	icon_state = "spikekey"
+	lockid = "koboldgarrison"
+
+/obj/item/roguekey/kobolddungeon
+	name = "kobold dungeon key"
+	desc = "A key for the cells found on the village"
+	icon_state = "mazekey"
+	lockid = "kobolddungeon"
+
+/obj/item/roguekey/koboldchurch
+	name = "kobold church key"
+	desc = "A key for the room at the shrine"
+	icon_state = "brownkey"
+	lockid = "koboldchurch"
+
+/obj/item/roguekey/koboldroomi
+	name = "Kobold Room I"
+	desc = "A key for the first room at the village"
+	icon_state = "brownkey"
+	lockid = "koboldroomi"
+
+/obj/item/roguekey/koboldroomii
+	name = "Kobold Room II"
+	desc = "A key for the second room at the village"
+	icon_state = "brownkey"
+	lockid = "koboldroomii"
+
+/obj/item/roguekey/koboldroomiii
+	name = "Kobold Room III"
+	desc = "A key for the third room at the village"
+	icon_state = "brownkey"
+	lockid = "koboldroomiii"
+
+/obj/item/roguekey/koboldroomiv
+	name = "Kobold Room IV"
+	desc = "A key for the fourth room at the village"
+	icon_state = "brownkey"
+	lockid = "koboldroomiv"
+//
+
 //vampire mansion//
 /obj/item/roguekey/vampire
 	name = "mansion key"
