@@ -3,7 +3,7 @@
 	tutorial = "Bookwhelps are the dedicated scribes of the kobold village. Whether through Moonari's grace or intense study, they tend to pick up a few spells here and there too..."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = list(
-		"Kobold",
+		/datum/species/kobold
 	)
 	outfit = /datum/outfit/job/roguetown/kobold/bookwhelp
 	category_tags = list(CTAG_TOILER)

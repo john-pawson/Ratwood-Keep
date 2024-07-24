@@ -3,7 +3,7 @@
 	tutorial = "You've always loved trees! That is, chopping them down and turning them into furniture, or doors, or walls. Some might think your love of trees is a little obsessive and singleminded, but you live in a wooden house, and can afford to throw stones at them!"
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = list(
-		"Kobold",
+		/datum/species/kobold
 	)
 	vampcompat = FALSE
 	outfit = /datum/outfit/job/roguetown/kobold/woodwhelp

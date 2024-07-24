@@ -3,7 +3,7 @@
 	tutorial = "Forgewhelps are those few kobolds who seek to return kobold kind to an age of wonder, those who smith great things in service to Magnus. Sadly, in the village, they tend to lack the materials to properly fund their grand works and have to seek out their own..."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = list(
-		"Kobold",
+		/datum/species/kobold
 	)
 	vampcompat = FALSE
 	outfit = /datum/outfit/job/roguetown/kobold/forgewhelp

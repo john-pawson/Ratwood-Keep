@@ -3,7 +3,7 @@
 	tutorial = "You serve at the whims of Nixor, great jokester that he is. With every passing week, the wheel of fortune spins and you find yourself the subject of a new grand jape, what does the great clown dragon have in store for you this time?"
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = list(
-		"Kobold",
+		/datum/species/kobold
 	)
 	vampcompat = FALSE
 	outfit = /datum/outfit/job/roguetown/kobold/gigglewhelp

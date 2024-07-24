@@ -3,7 +3,7 @@
 	tutorial = "The Spider-Dragon Sewdo is your muse, and you aim to weave great works that will catch his attention one day. For his part, you do have an unnerving talent with a loom which you have used to keep kin warm and cosy for years!"
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = list(
-		"Kobold",
+		/datum/species/kobold
 	)
 	vampcompat = FALSE
 	outfit = /datum/outfit/job/roguetown/kobold/seamswhelp

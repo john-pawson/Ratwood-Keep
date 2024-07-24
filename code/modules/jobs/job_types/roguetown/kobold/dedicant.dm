@@ -7,7 +7,7 @@
 	spawn_positions = 2
 
 	allowed_races = list(
-		"Kobold",
+		/datum/species/kobold
 	)
 	allowed_sexes = list(MALE, FEMALE)
 	outfit = /datum/outfit/job/roguetown/dedicant

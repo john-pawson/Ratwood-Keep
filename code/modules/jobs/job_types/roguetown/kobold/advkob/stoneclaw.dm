@@ -3,7 +3,7 @@
 	tutorial = ""
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = list(
-		"Kobold",
+		/datum/species/kobold
 	)
 	outfit = /datum/outfit/job/roguetown/kobold/stoneclaw
 	category_tags = list(CTAG_SPOTTER)

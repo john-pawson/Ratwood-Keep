@@ -3,7 +3,7 @@
 	tutorial = "Soilwhelps spend years developing a deep bond with the earth to provide for the village. The fields they toil in are blessed by Deemimoria herself, but all soilwhelps care for the crops they tend beyond this blessing..."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = list(
-		"Kobold",
+		/datum/species/kobold
 	)
 	vampcompat = FALSE
 	outfit = /datum/outfit/job/roguetown/kobold/soilwhelp

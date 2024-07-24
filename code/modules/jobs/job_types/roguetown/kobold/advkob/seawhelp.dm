@@ -3,7 +3,7 @@
 	tutorial = "You are a seawhelp, carried in some way to the village by the tides of the world. Your duties here are to provide, not necessarily from the sea but at least from a body of water..."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = list(
-		"Kobold",
+		/datum/species/kobold
 	)
 	outfit = /datum/outfit/job/roguetown/kobold/seawhelp
 	category_tags = list(CTAG_TOILER)

@@ -3,7 +3,7 @@
 	tutorial = "There's nothing better in life than seeing hungry kobolds stuffing themselves with your food and ale. It can be a tough life out here, but you make sure to keep everyone in the community warm in the glow of your hearth!"
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = list(
-		"Kobold",
+		/datum/species/kobold
 	)
 	vampcompat = FALSE
 	outfit = /datum/outfit/job/roguetown/kobold/hearthwhelp

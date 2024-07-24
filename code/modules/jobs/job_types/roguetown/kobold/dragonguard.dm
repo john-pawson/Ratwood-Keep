@@ -6,7 +6,7 @@
 	total_positions = 2
 	spawn_positions = 2
 	allowed_races = list(
-		"Drakian",
+		/datum/species/dracon
 	)
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED)

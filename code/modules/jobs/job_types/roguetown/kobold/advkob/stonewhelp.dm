@@ -3,7 +3,7 @@
 	tutorial = "They say that you broke out of your shell with a pick in your clawed grip. Now you toil away in the deep beneath the bog, doing what you can for the village by bringing in all the materials they could ever need. You keep some shinies for yourself though..."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = list(
-		"Kobold",
+		/datum/species/kobold
 	)
 	vampcompat = FALSE
 	outfit = /datum/outfit/job/roguetown/kobold/stonewhelp

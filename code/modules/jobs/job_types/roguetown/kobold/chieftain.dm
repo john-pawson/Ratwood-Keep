@@ -7,7 +7,7 @@
 	spawn_positions = 1
 	f_title = "Chieftainess"
 	allowed_races = list(
-		"Kobold",
+		/datum/species/kobold
 	)
 	allowed_sexes = list(MALE, FEMALE)
 	tutorial = "You have a sacred duty to the kobolds of your village community, advising and counselling where necessary. Life in the Bog isn't easy, and your flock is prone to danger more than many others, particularly given the poor state of your chosen settlement. Through perserverance and commitment to the Great Dragons, perhaps you can establish a great home for your people to thrive in?"

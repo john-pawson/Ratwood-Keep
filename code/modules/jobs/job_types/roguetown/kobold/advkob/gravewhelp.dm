@@ -3,7 +3,7 @@
 	tutorial = "Gravewhelps are an often misunderstood sort in the village. Your kind are necessary here, out in the Bog where death is rampant. You do what you can to bring peace to the community after death through dirges, although despite Sullenheart's presence about you, you still catch odd glances..."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = list(
-		"Kobold",
+		/datum/species/kobold
 	)
 	outfit = /datum/outfit/job/roguetown/kobold/gravewhelp
 	category_tags = list(CTAG_TOILER)
