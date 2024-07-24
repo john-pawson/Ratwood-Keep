@@ -676,3 +676,20 @@ GLOBAL_LIST_INIT(roguetown_areas_typecache, typecacheof(/area/rogue/indoors/town
 	droning_sound_dusk = null
 	droning_sound_night = null
 	first_time_text = "The Forest of Repentence"
+
+// Kobold Village
+
+/area/rogue/outdoors/koboldtown
+	name = "outdoors"
+	icon_state = "town"
+	soundenv = 16
+	droning_sound = 'sound/music/area/townstreets.ogg'
+	droning_sound_dusk = 'sound/music/area/septimus.ogg'
+	droning_sound_night = 'sound/music/area/sleeping.ogg'
+	converted_type = /area/rogue/indoors/shelter/koboldtown
+	first_time_text = "KOBOLD VILLAGE"
+/area/rogue/indoors/shelter/koboldtown
+	icon_state = "town"
+	droning_sound = 'sound/music/area/townstreets.ogg'
+	droning_sound_dusk = 'sound/music/area/septimus.ogg'
+	droning_sound_night = 'sound/music/area/sleeping.ogg'
