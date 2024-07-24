@@ -16,13 +16,14 @@
 
 /datum/outfit/job/roguetown/kobold/hearthwhelp/pre_equip(mob/living/carbon/human/H)
 	..()
+	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/reading, 1, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/craft/cooking, 4, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/medicine, 2, TRUE)
-  	H.mind.adjust_skillrank(/datum/skill/misc/sewing, 2, TRUE)
-  	H.mind.adjust_skillrank(/datum/skill/misc/weaving, 2, TRUE)
-  	H.change_stat("endurance", 2)
+		H.mind.adjust_skillrank(/datum/skill/misc/sewing, 2, TRUE)
+  		H.mind.adjust_skillrank(/datum/skill/misc/weaving, 2, TRUE)
+  		H.change_stat("endurance", 2)
 		H.change_stat("constitution", 2)
   	if(H.gender == MALE)
 		pants = /obj/item/clothing/under/roguetown/tights/random

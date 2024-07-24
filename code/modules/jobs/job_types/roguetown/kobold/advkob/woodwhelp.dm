@@ -17,16 +17,6 @@
 
 /datum/outfit/job/roguetown/kobold/woodwhelp/pre_equip(mob/living/carbon/human/H)
 	..()
-	if(H.mind)
-		H.mind.adjust_skillrank(/datum/skill/combat/axes, 3, TRUE)
-		H.mind.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE) 
-		H.mind.adjust_skillrank(/datum/skill/misc/swimming, 2, TRUE)
-		H.mind.adjust_skillrank(/datum/skill/misc/climbing, 2, TRUE)
-		H.mind.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)
-		H.mind.adjust_skillrank(/datum/skill/craft/carpentry, 3, TRUE)
-		H.mind.adjust_skillrank(/datum/skill/craft/masonry, 1, TRUE)
-		H.mind.adjust_skillrank(/datum/skill/craft/engineering, 1, TRUE)
-		H.mind.adjust_skillrank(/datum/skill/labor/lumberjacking, 4, TRUE)
 	belt = /obj/item/storage/belt/rogue/leather
 	shirt = /obj/item/clothing/suit/roguetown/shirt/shortshirt/random
 	pants = /obj/item/clothing/under/roguetown/trou
@@ -38,7 +28,17 @@
 	beltr = /obj/item/rogueweapon/stoneaxe/woodcut
 	beltl = /obj/item/rogueweapon/huntingknife
 	backpack_contents = list(/obj/item/flint = 1)
-	H.change_stat("strength", 2)
-	H.change_stat("constitution", 1)
-	H.change_stat("perception", 1)
-  H.change_stat("endurance", 1)
+	if(H.mind)
+		H.mind.adjust_skillrank(/datum/skill/combat/axes, 3, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE) 
+		H.mind.adjust_skillrank(/datum/skill/misc/swimming, 2, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/misc/climbing, 2, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/craft/carpentry, 3, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/craft/masonry, 1, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/craft/engineering, 1, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/labor/lumberjacking, 4, TRUE)
+		H.change_stat("strength", 2)
+		H.change_stat("constitution", 1)
+		H.change_stat("perception", 1)
+  		H.change_stat("endurance", 1)

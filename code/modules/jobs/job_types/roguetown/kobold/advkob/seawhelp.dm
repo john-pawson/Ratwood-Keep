@@ -13,7 +13,7 @@
 /datum/outfit/job/roguetown/kobold/seawhelp/pre_equip(mob/living/carbon/human/H)
 	..()
 	if(H.mind)
-  	H.mind.adjust_skillrank(/datum/skill/labor/fishing, 4, TRUE)
+  		H.mind.adjust_skillrank(/datum/skill/labor/fishing, 4, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/athletics, 2, TRUE) 
 		H.mind.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)
@@ -43,4 +43,4 @@
 		backr = /obj/item/fishingrod/fisher
 		beltr = /obj/item/cooking/pan
 		beltl = /obj/item/flint
-		backpack_contents = list(/obj/item/natural/worms = 2,/obj/item/rogueweapon/shovel/small=1)			
+		backpack_contents = list(/obj/item/natural/worms = 2,/obj/item/rogueweapon/shovel/small=1)	

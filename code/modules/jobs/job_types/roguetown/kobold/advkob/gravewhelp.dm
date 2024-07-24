@@ -28,7 +28,7 @@
 	beltl = /obj/item/roguekey/graveyard
 	beltr = /obj/item/storage/belt/rogue/pouch/coins/poor
 	backr = /obj/item/rogueweapon/shovel
-  l_hand = /obj/item/rogue/instrument/harp
+	l_hand = /obj/item/rogue/instrument/harp
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/combat/unarmed, 5, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/wrestling, 5, TRUE)
@@ -40,7 +40,7 @@
 		H.mind.adjust_skillrank(/datum/skill/misc/medicine, 1, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/reading, 1, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/magic/holy, 3, TRUE)
-  	H.mind.adjust_skillrank(/datum/skill/misc/music, 1, TRUE)
+  		H.mind.adjust_skillrank(/datum/skill/misc/music, 1, TRUE)
 		if(H.age == AGE_OLD)
 			H.mind.adjust_skillrank(/datum/skill/magic/holy, 1, TRUE)
 		H.change_stat("strength", 1)

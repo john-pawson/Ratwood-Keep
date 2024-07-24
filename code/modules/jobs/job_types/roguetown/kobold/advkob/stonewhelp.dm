@@ -17,17 +17,6 @@
 
 /datum/outfit/job/roguetown/kobold/stonewhelp/pre_equip(mob/living/carbon/human/H)
 	..()
-  if(H.mind)
-    H.mind.adjust_skillrank(/datum/skill/labor/mining, 4, TRUE)
-  	H.mind.adjust_skillrank(/datum/skill/craft/engineering, 3, TRUE)
-    H.mind.adjust_skillrank(/datum/skill/craft/masonry, 3, TRUE)
-  	H.mind.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE) 
-  	H.mind.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
-  	H.mind.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)
-  	H.mind.adjust_skillrank(/datum/skill/misc/climbing, 2, TRUE)
-  	H.mind.adjust_skillrank(/datum/skill/craft/crafting, 2, TRUE)
-  	H.mind.adjust_skillrank(/datum/skill/craft/carpentry, 2, TRUE)
-  	H.mind.adjust_skillrank(/datum/skill/misc/swimming, 2, TRUE)
 	cloak = /obj/item/clothing/cloak/apron/waist/brown
 	pants = /obj/item/clothing/under/roguetown/trou
 	shirt = /obj/item/clothing/suit/roguetown/shirt/undershirt/random
@@ -36,7 +25,18 @@
 	beltr = /obj/item/rogueweapon/pick
 	beltl = /obj/item/rogueweapon/hammer/claw
 	backl = /obj/item/storage/backpack/rogue/backpack
-	H.change_stat("strength", 1)
-	H.change_stat("endurance", 1)
-	H.change_stat("constitution", 1)
-	H.change_stat("fortune", 2)
+	if(H.mind)
+    	H.mind.adjust_skillrank(/datum/skill/labor/mining, 4, TRUE)
+  		H.mind.adjust_skillrank(/datum/skill/craft/engineering, 3, TRUE)
+    	H.mind.adjust_skillrank(/datum/skill/craft/masonry, 3, TRUE)
+  		H.mind.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE) 
+  		H.mind.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
+  		H.mind.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)
+  		H.mind.adjust_skillrank(/datum/skill/misc/climbing, 2, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/craft/crafting, 2, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/craft/carpentry, 2, TRUE)
+  		H.mind.adjust_skillrank(/datum/skill/misc/swimming, 2, TRUE)
+		H.change_stat("strength", 1)
+		H.change_stat("endurance", 1)
+		H.change_stat("constitution", 1)
+		H.change_stat("fortune", 2)
