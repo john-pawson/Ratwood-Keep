@@ -8,13 +8,13 @@
 	vampcompat = FALSE
 	outfit = /datum/outfit/job/roguetown/kobold/seamswhelp
 	category_tags = list(CTAG_TOILER)
-	maxchosen = 1
+	maximum_possible_slots = 1
 	pickprob = 100
 
 /datum/outfit/job/roguetown/kobold/seamswhelp
 	allowed_patrons = list(/datum/patron/draconic/magnus)
 
- /datum/outfit/job/roguetown/kobold/seamswhelp/pre_equip(mob/living/carbon/human/H)
+/datum/outfit/job/roguetown/kobold/seamswhelp/pre_equip(mob/living/carbon/human/H)
 	..()
 	mouth = /obj/item/needle
 	belt = /obj/item/storage/belt/rogue/leather/cloth/lady
@@ -30,7 +30,7 @@
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/misc/sewing, 4, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/weaving, 4, TRUE)
- 		H.mind.adjust_skillrank(/datum/skill/craft/tanning, 3, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/craft/tanning, 3, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/knives, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/medicine, 2, TRUE)

@@ -8,7 +8,7 @@
 	vampcompat = FALSE
 	outfit = /datum/outfit/job/roguetown/kobold/hearthwhelp
 	category_tags = list(CTAG_TOILER)
-	maxchosen = 1
+	maximum_possible_slots = 1
 	pickprob = 100
 
 /datum/outfit/job/roguetown/kobold/hearthwhelp
@@ -22,10 +22,10 @@
 		H.mind.adjust_skillrank(/datum/skill/craft/cooking, 4, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/medicine, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/sewing, 2, TRUE)
-  		H.mind.adjust_skillrank(/datum/skill/misc/weaving, 2, TRUE)
-  		H.change_stat("endurance", 2)
+		H.mind.adjust_skillrank(/datum/skill/misc/weaving, 2, TRUE)
+		H.change_stat("endurance", 2)
 		H.change_stat("constitution", 2)
-  	if(H.gender == MALE)
+	if(H.gender == MALE)
 		pants = /obj/item/clothing/under/roguetown/tights/random
 		shirt = /obj/item/clothing/suit/roguetown/shirt/shortshirt/random
 		shoes = /obj/item/clothing/shoes/roguetown/shortboots
@@ -33,7 +33,7 @@
 		beltl = /obj/item/storage/belt/rogue/pouch/coins/mid
 		neck = /obj/item/keyring/innkeep
 		cloak = /obj/item/clothing/cloak/apron/waist
-	  else
+	else
 		armor = /obj/item/clothing/suit/roguetown/shirt/dress
 		shoes = /obj/item/clothing/shoes/roguetown/shortboots
 		neck = /obj/item/storage/belt/rogue/pouch/coins/mid

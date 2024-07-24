@@ -18,7 +18,7 @@
 	max_pq = null
 
 /datum/outfit/job/roguetown/dragonguard
-	allowed_patrons = list(/datum/patron/divine/revillicus)
+	allowed_patrons = list(/datum/patron/draconic/revillicus)
 
 /datum/outfit/job/roguetown/dragonguard/pre_equip(mob/living/carbon/human/H)
 	..()

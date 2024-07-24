@@ -6,16 +6,15 @@
 		"Kobold",
 	)
 	outfit = /datum/outfit/job/roguetown/kobold/songclaw
-  traits_applied = list(TRAIT_MEDIUMARMOR, TRAIT_DODGEEXPERT, TRAIT_GOODLOVER, TRAIT_EMPATH)
 	category_tags = list(CTAG_SPOTTER)
-	maxchosen = 2
+	maximum_possible_slots = 2
 	pickprob = 100
 
 /datum/outfit/job/roguetown/kobold/songclaw
 	allowed_patrons = list(/datum/patron/draconic/nixor)
 
 /datum/outfit/job/roguetown/kobold/songclaw/pre_equip(mob/living/carbon/human/H)
-..()
+	..()
 	head = /obj/item/clothing/head/roguetown/bardhat
 	shoes = /obj/item/clothing/shoes/roguetown/boots
 	pants = /obj/item/clothing/under/roguetown/tights/random
@@ -46,3 +45,7 @@
 		H.change_stat("perception", 1)
 		H.change_stat("endurance", 1)
 		H.change_stat("speed", 2)
+	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
+	ADD_TRAIT(H, TRAIT_GOODLOVER, TRAIT_GENERIC)
+	ADD_TRAIT(H, TRAIT_DODGEEXPERT, TRAIT_GENERIC)
+	ADD_TRAIT(H, TRAIT_EMPATH, TRAIT_GENERIC)

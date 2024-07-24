@@ -1,6 +1,6 @@
 /datum/job/roguetown/chieftan
 	title = "Chieftain"
-	flag = CHIEFTAN
+	flag = CHIEFTAIN
 	department_flag = KOBOLD
 	faction = "Station"
 	total_positions = 1

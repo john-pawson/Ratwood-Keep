@@ -6,16 +6,15 @@
 		"Kobold",
 	)
 	outfit = /datum/outfit/job/roguetown/kobold/steelclaw
-  traits_applied = list(TRAIT_DODGEEXPERT)
 	category_tags = list(CTAG_SPOTTER)
-	maxchosen = 2
+	maximum_possible_slots = 2
 	pickprob = 100
 
 /datum/outfit/job/roguetown/kobold/steelclaw
 	allowed_patrons = list(/datum/patron/draconic/revillicus)
 
 /datum/outfit/job/roguetown/kobold/steelclaw/pre_equip(mob/living/carbon/human/H)
-..()
+	..()
 	head = /obj/item/clothing/head/roguetown/roguehood
 	shoes = /obj/item/clothing/shoes/roguetown/shortboots
 	cloak = /obj/item/clothing/cloak/raincloak/furcloak/brown
@@ -39,3 +38,5 @@
 		H.change_stat("strength", 2)
 		H.change_stat("constitution", 1)
 		H.change_stat("speed", 2)
+
+	ADD_TRAIT(H, TRAIT_DODGEEXPERT, TRAIT_GENERIC)

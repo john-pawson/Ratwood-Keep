@@ -8,7 +8,7 @@
 	vampcompat = FALSE
 	outfit = /datum/outfit/job/roguetown/kobold/woodwhelp
 	category_tags = list(CTAG_TOILER)
-	maxchosen = 1
+	maximum_possible_slots = 1
 	pickprob = 100
 
 /datum/outfit/job/roguetown/kobold/woodwhelp
@@ -41,4 +41,4 @@
 		H.change_stat("strength", 2)
 		H.change_stat("constitution", 1)
 		H.change_stat("perception", 1)
-  		H.change_stat("endurance", 1)
+		H.change_stat("endurance", 1)

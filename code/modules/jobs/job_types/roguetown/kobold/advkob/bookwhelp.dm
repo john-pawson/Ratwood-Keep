@@ -7,7 +7,7 @@
 	)
 	outfit = /datum/outfit/job/roguetown/kobold/bookwhelp
 	category_tags = list(CTAG_TOILER)
-	maxchosen = 1
+	maximum_possible_slots = 1
 	pickprob = 100
 
 /datum/outfit/job/roguetown/kobold/bookwhelp

@@ -7,13 +7,13 @@
 	)
 	outfit = /datum/outfit/job/roguetown/kobold/seawhelp
 	category_tags = list(CTAG_TOILER)
-	maxchosen = 1
+	maximum_possible_slots = 1
 	pickprob = 100
 
 /datum/outfit/job/roguetown/kobold/seawhelp/pre_equip(mob/living/carbon/human/H)
 	..()
 	if(H.mind)
-  		H.mind.adjust_skillrank(/datum/skill/labor/fishing, 4, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/labor/fishing, 4, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/athletics, 2, TRUE) 
 		H.mind.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)
@@ -40,7 +40,7 @@
 		armor = /obj/item/clothing/suit/roguetown/armor/workervest
 		backl = /obj/item/storage/backpack/rogue/satchel
 		belt = /obj/item/storage/belt/rogue/leather
-		backr = /obj/item/fishingrod/fisher
+		backr = /obj/item/fishingrod
 		beltr = /obj/item/cooking/pan
 		beltl = /obj/item/flint
 		backpack_contents = list(/obj/item/natural/worms = 2,/obj/item/rogueweapon/shovel/small=1)	

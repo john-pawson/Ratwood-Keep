@@ -6,9 +6,8 @@
 		"Kobold",
 	)
 	outfit = /datum/outfit/job/roguetown/kobold/shadowclaw
-  traits_applied = list(TRAIT_MEDIUMARMOR, TRAIT_DODGEEXPERT, TRAIT_STEELHEARTED)
 	category_tags = list(CTAG_SPOTTER)
-	maxchosen = 2
+	maximum_possible_slots = 2
 	pickprob = 100
 
 /datum/outfit/job/roguetown/kobold/shadowclaw

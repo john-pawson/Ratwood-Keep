@@ -5,14 +5,12 @@
 	allowed_races = list(
 		"Kobold",
 	)
-	outfit = /datum/outfit/job/roguetown/kobold/bookwhelp
+	outfit = /datum/outfit/job/roguetown/kobold/gravewhelp
 	category_tags = list(CTAG_TOILER)
-	maxchosen = 1
+	maximum_possible_slots = 1
 	pickprob = 100
 
-	outfit = /datum/outfit/job/kobold/gravewhelp
-
-/datum/outfit/job/kobold/gravewhelp
+/datum/outfit/job/roguetown/kobold/gravewhelp
 	allowed_patrons = list(/datum/patron/draconic/sullenheart)
 
 /datum/outfit/job/roguetown/kobold/gravewhelp/pre_equip(mob/living/carbon/human/H)
@@ -40,7 +38,7 @@
 		H.mind.adjust_skillrank(/datum/skill/misc/medicine, 1, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/reading, 1, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/magic/holy, 3, TRUE)
-  		H.mind.adjust_skillrank(/datum/skill/misc/music, 1, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/misc/music, 1, TRUE)
 		if(H.age == AGE_OLD)
 			H.mind.adjust_skillrank(/datum/skill/magic/holy, 1, TRUE)
 		H.change_stat("strength", 1)

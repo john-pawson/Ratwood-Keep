@@ -8,7 +8,7 @@
 	vampcompat = FALSE
 	outfit = /datum/outfit/job/roguetown/kobold/stonewhelp
 	category_tags = list(CTAG_TOILER)
-	maxchosen = 1
+	maximum_possible_slots = 1
 	pickprob = 100
 
 /datum/outfit/job/roguetown/kobold/stonewhelp
@@ -26,16 +26,16 @@
 	beltl = /obj/item/rogueweapon/hammer/claw
 	backl = /obj/item/storage/backpack/rogue/backpack
 	if(H.mind)
-    	H.mind.adjust_skillrank(/datum/skill/labor/mining, 4, TRUE)
-  		H.mind.adjust_skillrank(/datum/skill/craft/engineering, 3, TRUE)
-    	H.mind.adjust_skillrank(/datum/skill/craft/masonry, 3, TRUE)
-  		H.mind.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE) 
-  		H.mind.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
-  		H.mind.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)
-  		H.mind.adjust_skillrank(/datum/skill/misc/climbing, 2, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/labor/mining, 4, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/craft/engineering, 3, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/craft/masonry, 3, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE) 
+		H.mind.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/misc/climbing, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/craft/crafting, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/craft/carpentry, 2, TRUE)
-  		H.mind.adjust_skillrank(/datum/skill/misc/swimming, 2, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/misc/swimming, 2, TRUE)
 		H.change_stat("strength", 1)
 		H.change_stat("endurance", 1)
 		H.change_stat("constitution", 1)

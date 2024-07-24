@@ -6,9 +6,8 @@
 		"Kobold",
 	)
 	outfit = /datum/outfit/job/roguetown/kobold/stoneclaw
-  traits_applied = list(TRAIT_CRITICAL_RESISTANCE, TRAIT_NOPAINSTUN, TRAIT_STEELHEARTED)
 	category_tags = list(CTAG_SPOTTER)
-	maxchosen = 2
+	maximum_possible_slots = 2
 	pickprob = 100
 
 /datum/outfit/job/roguetown/kobold/stoneclaw
@@ -25,7 +24,7 @@
 	head = /obj/item/clothing/head/roguetown/helmet/horned
 	cloak = /obj/item/clothing/cloak/raincloak/furcloak/brown
 	if(H.mind)
-  		H.mind.adjust_skillrank(/datum/skill/combat/maces, 3, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/combat/maces, 3, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/wrestling, 3, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/craft/crafting, 1, TRUE)
@@ -41,3 +40,7 @@
 		H.change_stat("strength", 2) 
 		H.change_stat("constitution", 2)
 		H.change_stat("endurance", 2)
+
+	ADD_TRAIT(H, TRAIT_CRITICAL_RESISTANCE, TRAIT_GENERIC)
+	ADD_TRAIT(H, TRAIT_NOPAINSTUN, TRAIT_GENERIC)
+	ADD_TRAIT(H, TRAIT_STEELHEARTED, TRAIT_GENERIC)
