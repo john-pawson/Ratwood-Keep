@@ -36,13 +36,13 @@
 	desc = "She brought water to the deeper lands by creating the cycle of clouds with her magical power. She is also responsible for the creation of fish and wildlife inside the rivers."
 	worshippers = "The Fishers, Seafarers and Charitable."
 
-/datum/patron/divine/revillicus
+/datum/patron/draconic/revillicus
 	name = "Revillicus"
 	domain = "Red Dragon God of Righteous Rage, Fury, and Revenge."
 	desc = "He is the protector of kobold kind, through him births the bravery to strike back against those who have wronged kin."
 	worshippers = "The Brave, Strong and Loyal."
 
-/datum/patron/divine/sullenheart
+/datum/patron/draconic/sullenheart
 	name = "Sullenheart"
 	domain = "The bone dragon goddess of Sorrow, Death and Loss."
 	desc = "Guides lost kobolds to their place into the next live, though she does so with great pain and sorrow every timeone of her sweet children die."
