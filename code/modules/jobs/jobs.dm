@@ -152,6 +152,14 @@ GLOBAL_LIST_INIT(allmig_positions, list(
 	"Pilgrim",
 ))
 
+GLOBAL_LIST_INIT(kobold_positions, list(
+	"Chieftain",
+	"Dragon Guard",
+	"Dedicant",
+	"Spotter",
+	"Toiler",
+))
+
 GLOBAL_LIST_INIT(roguewar_positions, list(
 	"Adventurer",
 ))

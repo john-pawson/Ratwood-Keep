@@ -1,0 +1,19 @@
+/obj/effect/proc_holder/spell/invoked/sacred_flame_rogue/draconic
+	name = "Draconic Flame"
+	overlay_state = "sacredflame"
+	releasedrain = 30
+	chargedrain = 0
+	chargetime = 0
+	range = 15
+	warnie = "sydwarning"
+	movement_interrupt = FALSE
+	chargedloop = null
+	req_items = list(/obj/item/clothing/neck/roguetown/psicross)
+	sound = 'sound/magic/heal.ogg'
+	invocation = "Dragonfire, ignite!"
+	invocation_type = "shout"
+	associated_skill = /datum/skill/magic/holy
+	antimagic_allowed = TRUE
+	charge_max = 5 SECONDS
+	miracle = TRUE
+	devotion_cost = 20
