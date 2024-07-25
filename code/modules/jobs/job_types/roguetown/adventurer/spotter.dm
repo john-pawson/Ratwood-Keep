@@ -6,7 +6,7 @@
 	total_positions = 6
 	spawn_positions = 6
 	allowed_races = list(
-		"Kobold",
+		/datum/species/kobold
 	)
 	tutorial = "You were clutched and raised in the Kobold Village, and owe a great deal of loyalty to your community. Up until now, you've only seen a few clashes, but that promises to change soon... Be vigilant and guard your kin against the dangers of the Bog!"
 	advclass_cat_rolls = list(CTAG_SPOTTER = 20)
