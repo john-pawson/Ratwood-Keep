@@ -1,5 +1,5 @@
 /datum/advclass/songclaw
-	name = "songclaw"
+	name = "Songclaw"
 	tutorial = ""
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = list(
