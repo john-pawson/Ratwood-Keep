@@ -411,6 +411,31 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	name = "Goblin Smith"
 	icon_state = "arrow"
 
+//kobold
+
+/obj/effect/landmark/start/koboldlate
+	name = "Koboldlate"
+	icon_state = "arrow"
+	jobspawn_override = list("Toiler", "Spotter")
+	delete_after_roundstart = FALSE
+
+/obj/effect/landmark/start/chieftain
+	name = "Chieftain"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/dragonguard
+	name = "Dragon Guard"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/dedicant
+	name = "Dedicant"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/kobold
+	name = "Kobold"
+	icon_state = "arrow"
+	jobspawn_override = list("Toiler", "Spotter")
+
 // START LANDMARKS FOLLOW. Don't change the names unless
 // you are refactoring shitty landmark code.
 /obj/effect/landmark/start/assistant
