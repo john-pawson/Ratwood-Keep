@@ -7860,6 +7860,11 @@
 	icon_state = "horzw"
 	},
 /area/rogue/indoors/shelter/mountains)
+"iun" = (
+/obj/item/chair/stool/bar/rogue,
+/obj/effect/landmark/start/kobold,
+/turf/open/floor/rogue/ruinedwood,
+/area/rogue/under/town/basement)
 "iuo" = (
 /turf/open/floor/rogue/blocks,
 /area/rogue/indoors/town/church)
@@ -8271,6 +8276,10 @@
 "iTw" = (
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/basement)
+"iTV" = (
+/obj/effect/landmark/start/koboldlate,
+/turf/open/floor/rogue/grass,
+/area/rogue/outdoors/bog)
 "iUe" = (
 /obj/structure/table/wood,
 /obj/structure/table/wood{
@@ -8804,6 +8813,10 @@
 /obj/item/clothing/suit/roguetown/shirt/robe/astrata,
 /turf/open/floor/rogue/church,
 /area/rogue/indoors/town/church/chapel)
+"jEj" = (
+/obj/effect/landmark/start/koboldlate,
+/turf/open/floor/rogue/dirt,
+/area/rogue/outdoors/bog)
 "jEB" = (
 /obj/structure/mineral_door/wood{
 	icon_state = "wcv";
@@ -16697,6 +16710,11 @@
 	icon_state = "horzw"
 	},
 /area/rogue/indoors/town/bath)
+"tkO" = (
+/obj/structure/chair/stool/rogue,
+/obj/effect/landmark/start/kobold,
+/turf/open/floor/rogue/wood/nosmooth,
+/area/rogue/indoors/town/tavern)
 "tkQ" = (
 /obj/structure/fermenting_barrel/random/water,
 /turf/open/floor/rogue/wood,
@@ -17182,6 +17200,7 @@
 	dir = 4
 	},
 /obj/item/chair/stool/bar/rogue,
+/obj/effect/landmark/start/kobold,
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/under/town/basement)
 "tOz" = (
@@ -161170,7 +161189,7 @@ pld
 pld
 pld
 pld
-xTJ
+iun
 pld
 uNL
 pld
@@ -250400,7 +250419,7 @@ wLx
 sYx
 sYx
 wLx
-odi
+iTV
 odi
 sYx
 odi
@@ -251636,7 +251655,7 @@ kDc
 wLx
 wLx
 wLx
-odi
+iTV
 odi
 uRH
 sYx
@@ -271361,7 +271380,7 @@ sYx
 odi
 odi
 odi
-sYx
+jEj
 sYx
 odi
 sYx
@@ -274155,7 +274174,7 @@ nst
 dWH
 dWH
 dWH
-nst
+tkO
 dWH
 wNn
 rJI
@@ -274555,7 +274574,7 @@ iMf
 gtM
 dWH
 dWH
-nst
+tkO
 rXe
 qUZ
 dWH
@@ -274960,7 +274979,7 @@ dWH
 dWH
 mkl
 dXL
-nst
+tkO
 wNn
 rJI
 tvC
@@ -275360,7 +275379,7 @@ aWX
 dWH
 dWH
 dWH
-nst
+tkO
 dWH
 dWH
 wNn
@@ -276166,7 +276185,7 @@ wNn
 dWH
 dWH
 qUZ
-nst
+tkO
 wNn
 rJI
 tvC
@@ -276526,7 +276545,7 @@ sYx
 wLx
 odi
 odi
-sYx
+jEj
 sYx
 odi
 odi
@@ -276566,7 +276585,7 @@ asX
 asX
 pvy
 dWH
-nst
+tkO
 dXL
 dWH
 tTQ
