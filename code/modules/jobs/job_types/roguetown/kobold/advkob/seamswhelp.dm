@@ -16,7 +16,7 @@
 
 /datum/outfit/job/roguetown/kobold/seamswhelp/pre_equip(mob/living/carbon/human/H)
 	..()
-	mouth = /obj/item/needle
+	mouth = /obj/item/roguekey/koboldgate
 	belt = /obj/item/storage/belt/rogue/leather/cloth/lady
 	pants = /obj/item/clothing/under/roguetown/tights/random
 	armor = /obj/item/clothing/suit/roguetown/armor/armordress
@@ -26,7 +26,7 @@
 	beltr = /obj/item/rogueweapon/huntingknife/idagger
 	cloak = /obj/item/clothing/cloak/raincloak/furcloak
 	beltl = /obj/item/needle
-	backpack_contents = list(/obj/item/natural/cloth = 1, /obj/item/natural/cloth = 1, /obj/item/natural/bundle/fibers/full = 1)
+	backpack_contents = list(/obj/item/natural/cloth = 1, /obj/item/needle = 1, /obj/item/natural/bundle/fibers/full = 1)
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/misc/sewing, 4, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/weaving, 4, TRUE)

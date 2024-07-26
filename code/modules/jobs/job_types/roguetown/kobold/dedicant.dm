@@ -26,6 +26,7 @@
 	H.virginity = TRUE
 	belt = /obj/item/storage/belt/rogue/leather/rope
 	beltl = /obj/item/flashlight/flare/torch/lantern
+	beltr = /obj/item/keyring/koboldchurch
 	head = /obj/item/clothing/head/roguetown/roguehood/astrata
 	neck = /obj/item/clothing/neck/roguetown/psicross/wood
 	wrists = /obj/item/clothing/wrists/roguetown/wrappings

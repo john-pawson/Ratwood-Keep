@@ -31,13 +31,15 @@
 		shoes = /obj/item/clothing/shoes/roguetown/shortboots
 		belt = /obj/item/storage/belt/rogue/leather
 		beltl = /obj/item/storage/belt/rogue/pouch/coins/mid
-		neck = /obj/item/keyring/innkeep
+		neck = /obj/item/keyring/koboldrooms
 		cloak = /obj/item/clothing/cloak/apron/waist
+		mouth = /obj/item/roguekey/koboldgate
 	else
 		armor = /obj/item/clothing/suit/roguetown/shirt/dress
 		shoes = /obj/item/clothing/shoes/roguetown/shortboots
 		neck = /obj/item/storage/belt/rogue/pouch/coins/mid
 		belt = /obj/item/storage/belt/rogue/leather/rope
-		beltl = /obj/item/keyring/innkeep
+		beltl = /obj/item/keyring/koboldrooms
+		mouth = /obj/item/roguekey/koboldgate
 
   // Based on the abysmal skills, stats and warm flavour, honestly a really good candidate for being an Onissia devotion holder once spells are fleshed out, hesitant to just slop it on them now as kobold village is already over-represented in devotion holders.

@@ -23,6 +23,7 @@
 	wrists = /obj/item/clothing/wrists/roguetown/bracers/leather
 	head = /obj/item/clothing/head/roguetown/helmet/horned
 	cloak = /obj/item/clothing/cloak/raincloak/furcloak/brown
+	mouth = /obj/item/roguekey/koboldgate
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/combat/maces, 3, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/wrestling, 3, TRUE)

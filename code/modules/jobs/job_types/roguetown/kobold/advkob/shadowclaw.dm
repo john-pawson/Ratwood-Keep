@@ -25,6 +25,7 @@
 	beltr = /obj/item/rogueweapon/huntingknife/idagger/steel
 	beltl = /obj/item/rogueweapon/huntingknife/idagger/steel
 	shoes = /obj/item/clothing/shoes/roguetown/boots
+	mouth = /obj/item/roguekey/koboldgate
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/combat/swords, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/athletics, 4, TRUE)

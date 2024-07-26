@@ -23,6 +23,7 @@
 	beltr = /obj/item/reagent_containers/glass/bottle/rogue/manapot
 	beltl = /obj/item/flashlight/flare/torch/lantern
 	backl = /obj/item/storage/backpack/rogue/satchel
+	backpack_contents = /obj/item/roguekey/koboldgate
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/misc/reading, 6, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/alchemy, 2, TRUE)

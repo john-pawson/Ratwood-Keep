@@ -26,6 +26,7 @@
 	backl = /obj/item/storage/backpack/rogue/satchel
 	beltl = /obj/item/flashlight/flare/torch/lantern
 	beltr = /obj/item/rogueweapon/huntingknife/idagger/steel
+	mouth = /obj/item/roguekey/koboldgate
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)

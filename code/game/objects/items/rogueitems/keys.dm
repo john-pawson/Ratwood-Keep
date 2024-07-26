@@ -203,6 +203,12 @@
 	icon_state = "brownkey"
 	lockid = "koboldchurch"
 
+/obj/item/roguekey/chieftain
+	name = "kobold chieftain key"
+	desc = "A key for the chieftains quarters"
+	icon_state = "ekey"
+	lockid = "koboldchieftain"
+
 /obj/item/roguekey/koboldroomi
 	name = "Kobold Room I"
 	desc = "A key for the first room at the village"

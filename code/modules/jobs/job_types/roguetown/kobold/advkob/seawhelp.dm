@@ -12,6 +12,19 @@
 
 /datum/outfit/job/roguetown/kobold/seawhelp/pre_equip(mob/living/carbon/human/H)
 	..()
+	
+	pants = /obj/item/clothing/under/roguetown/tights/random
+	shirt = /obj/item/clothing/suit/roguetown/shirt/shortshirt/random
+	shoes = /obj/item/clothing/shoes/roguetown/boots/leather
+	head = /obj/item/clothing/head/roguetown/fisherhat
+	mouth = /obj/item/rogueweapon/huntingknife
+	armor = /obj/item/clothing/suit/roguetown/armor/workervest
+	backl = /obj/item/storage/backpack/rogue/satchel
+	belt = /obj/item/storage/belt/rogue/leather
+	backr = /obj/item/fishingrod
+	beltr = /obj/item/cooking/pan
+	beltl = /obj/item/flint
+	backpack_contents = list(/obj/item/natural/worms = 1,/obj/item/rogueweapon/shovel/small=1, /obj/item/roguekey/koboldgate = 1)	
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/labor/fishing, 4, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/athletics, 2, TRUE) 
@@ -31,16 +44,4 @@
 		H.change_stat("perception", 2)
 		H.change_stat("constitution", 1)
 		H.change_stat("speed", 1)
-	if(H.gender == MALE)
-		pants = /obj/item/clothing/under/roguetown/tights/random
-		shirt = /obj/item/clothing/suit/roguetown/shirt/shortshirt/random
-		shoes = /obj/item/clothing/shoes/roguetown/boots/leather
-		head = /obj/item/clothing/head/roguetown/fisherhat
-		mouth = /obj/item/rogueweapon/huntingknife
-		armor = /obj/item/clothing/suit/roguetown/armor/workervest
-		backl = /obj/item/storage/backpack/rogue/satchel
-		belt = /obj/item/storage/belt/rogue/leather
-		backr = /obj/item/fishingrod
-		beltr = /obj/item/cooking/pan
-		beltl = /obj/item/flint
-		backpack_contents = list(/obj/item/natural/worms = 2,/obj/item/rogueweapon/shovel/small=1)	
+

@@ -27,7 +27,7 @@
 	armor = /obj/item/clothing/suit/roguetown/armor/workervest
 	beltr = /obj/item/rogueweapon/stoneaxe/woodcut
 	beltl = /obj/item/rogueweapon/huntingknife
-	backpack_contents = list(/obj/item/flint = 1)
+	backpack_contents = list(/obj/item/flint = 1, /obj/item/roguekey/koboldgate = 1)
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/combat/axes, 3, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE) 

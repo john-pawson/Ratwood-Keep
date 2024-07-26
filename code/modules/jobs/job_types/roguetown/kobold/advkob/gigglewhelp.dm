@@ -24,6 +24,7 @@
 	beltl = /obj/item/storage/belt/rogue/pouch
 	head = /obj/item/clothing/head/roguetown/jester
 	r_hand = /obj/item/rogueweapon/huntingknife/idagger/steel
+	mouth = /obj/item/roguekey/koboldgate
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/combat/knives, 3, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/reading, 3, TRUE)

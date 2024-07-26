@@ -24,6 +24,7 @@
 	beltr = /obj/item/rogueweapon/katar
 	backl = /obj/item/storage/backpack/rogue/backpack
 	r_hand = /obj/item/rogueweapon/woodstaff
+	mouth = /obj/item/roguekey/koboldgate
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE) 
 		H.mind.adjust_skillrank(/datum/skill/combat/wrestling, 4, TRUE)

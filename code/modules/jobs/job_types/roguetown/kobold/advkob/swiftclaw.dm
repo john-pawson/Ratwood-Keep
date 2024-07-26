@@ -28,6 +28,7 @@
 	beltr = /obj/item/flashlight/flare/torch/lantern
 	backpack_contents = list(/obj/item/rogueweapon/huntingknife = 1)
 	beltl = /obj/item/quiver/arrows
+	mouth = /obj/item/roguekey/koboldgate
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/combat/swords, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/polearms, 1, TRUE)

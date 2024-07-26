@@ -25,6 +25,7 @@
 	beltr = /obj/item/rogueweapon/pick
 	beltl = /obj/item/rogueweapon/hammer/claw
 	backl = /obj/item/storage/backpack/rogue/backpack
+	mouth = /obj/item/roguekey/koboldgate
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/labor/mining, 4, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/craft/engineering, 3, TRUE)

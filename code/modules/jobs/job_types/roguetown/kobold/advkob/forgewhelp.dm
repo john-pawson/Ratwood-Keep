@@ -21,7 +21,7 @@
 	beltl = /obj/item/rogueweapon/tongs
 	gloves = /obj/item/clothing/gloves/roguetown/leather
 	cloak = /obj/item/clothing/cloak/apron/blacksmith
-	mouth = /obj/item/rogueweapon/huntingknife
+	mouth = /obj/item/roguekey/koboldgate
 	pants = /obj/item/clothing/under/roguetown/trou
 	backl = /obj/item/storage/backpack/rogue/satchel
 	backpack_contents = list(/obj/item/flint = 1, /obj/item/rogueore/coal=1, /obj/item/rogueore/iron=1)

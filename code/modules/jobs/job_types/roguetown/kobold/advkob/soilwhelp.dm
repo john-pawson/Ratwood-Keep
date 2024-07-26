@@ -22,6 +22,7 @@
 	head = /obj/item/clothing/head/roguetown/dendormask
 	neck = /obj/item/clothing/neck/roguetown/psicross/wood
 	armor = /obj/item/clothing/suit/roguetown/shirt/robe/dendor
+	mouth = /obj/item/roguekey/koboldgate
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/misc/sewing, 1, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/weaving, 1, TRUE)
