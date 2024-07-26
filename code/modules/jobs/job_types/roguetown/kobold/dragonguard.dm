@@ -35,7 +35,7 @@
 	backr = /obj/item/storage/backpack/rogue/satchel/black
 	backl = /obj/item/gun/ballistic/revolver/grenadelauncher/bow
 	r_hand = /obj/item/rogueweapon/mace/goden/steel
-	backpack_contents = list(/obj/irem/keyring/dragonguard)
+	backpack_contents = list(/obj/item/keyring/dragonguard)
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/combat/polearms, 4, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/swords, 3, TRUE)

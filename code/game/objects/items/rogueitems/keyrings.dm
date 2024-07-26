@@ -198,7 +198,7 @@
 	keys = list(/obj/item/roguekey/manor, /obj/item/roguekey/royal)
 
 /obj/item/keyring/chieftain
-	keys = list(/obj/item/roguekey/koboldchieftain, /obj/item/roguekey/koboldgarrison, /obj/item/roguekey/koboldgate)
+	keys = list(/obj/item/roguekey/chieftain, /obj/item/roguekey/koboldgarrison, /obj/item/roguekey/koboldgate, /obj/item/roguekey/kobolddungeon)
 
 /obj/item/keyring/dragonguard
 	keys = list(/obj/item/roguekey/koboldgarrison, /obj/item/roguekey/koboldgate, /obj/item/roguekey/kobolddungeon)
