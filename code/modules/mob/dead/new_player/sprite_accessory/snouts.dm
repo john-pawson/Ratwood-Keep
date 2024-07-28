@@ -246,9 +246,8 @@
 /datum/sprite_accessory/snout/skulldog
 	name = "Skulldog"
 	icon_state = "skulldog"
-	extra_state = TRUE
 	color_keys = 2
-	color_key_names = list("Snout", "Inner")
+	color_key_names = list("Inner", "Snout")
 
 /datum/sprite_accessory/snout/hanubus
 	name = "Anubus"
@@ -455,6 +454,5 @@
 /datum/sprite_accessory/snout/front/skulldog
 	name = "Skulldog (Top)"
 	icon_state = "fskulldog"
-	extra_state = TRUE
 	color_keys = 2
-	color_key_names = list("Snout", "Inner")
+	color_key_names = list("Inner", "Snout")
