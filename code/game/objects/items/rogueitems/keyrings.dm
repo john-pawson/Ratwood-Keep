@@ -213,3 +213,12 @@
 
 /obj/item/keyring/royal
 	keys = list(/obj/item/roguekey/councillor_rooms, /obj/item/roguekey/prince_rooms, /obj/item/roguekey/manor, /obj/item/roguekey/royal)
+
+/obj/item/keyring/chieftain
+	keys = list(/obj/item/roguekey/chieftain, /obj/item/roguekey/koboldgarrison, /obj/item/roguekey/koboldgate, /obj/item/roguekey/kobolddungeon)
+
+/obj/item/keyring/dragonguard
+	keys = list(/obj/item/roguekey/koboldgarrison, /obj/item/roguekey/koboldgate, /obj/item/roguekey/kobolddungeon)
+
+/obj/item/keyring/koboldrooms
+	keys = list(/obj/item/roguekey/koboldroomi, /obj/item/roguekey/koboldroomii, /obj/item/roguekey/koboldroomiii, /obj/item/roguekey/koboldroomiv)
