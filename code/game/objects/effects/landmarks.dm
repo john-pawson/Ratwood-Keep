@@ -428,14 +428,20 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 /obj/effect/landmark/start/chieftain
 	name = "Chieftain"
 	icon_state = "arrow"
+	jobspawn_override = list("Chieftain")
+	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/dragonguard
 	name = "Dragon Guard"
 	icon_state = "arrow"
+	jobspawn_override = list("Dragon Guard")
+	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/dedicant
 	name = "Dedicant"
 	icon_state = "arrow"
+	jobspawn_override = list("Dedicant")
+	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/kobold
 	name = "Kobold"
