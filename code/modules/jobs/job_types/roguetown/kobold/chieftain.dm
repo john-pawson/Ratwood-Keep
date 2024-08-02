@@ -23,7 +23,7 @@
 /datum/outfit/job/roguetown/chieftain
 	allowed_patrons = list(/datum/patron/draconic/anarinus)
 
-/datum/outfit/job/roguetown/priest/pre_equip(mob/living/carbon/human/H)
+/datum/outfit/job/roguetown/chieftain/pre_equip(mob/living/carbon/human/H)
 	..()
 	H.virginity = TRUE
 	neck = /obj/item/clothing/neck/roguetown/psicross/astrata
