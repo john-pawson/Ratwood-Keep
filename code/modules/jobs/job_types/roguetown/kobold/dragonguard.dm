@@ -6,7 +6,7 @@
 	total_positions = 2
 	spawn_positions = 2
 	allowed_races = list(
-		/datum/species/dracon
+		/datum/species/dracon,
 		/datum/species/lizardfolk
 	)
 	allowed_sexes = list(MALE, FEMALE)
