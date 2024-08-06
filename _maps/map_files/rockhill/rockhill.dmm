@@ -1972,7 +1972,9 @@
 /turf/open/floor/rogue/herringbone,
 /area/rogue/indoors/town/church)
 "cmd" = (
-/obj/structure/chair/bench/church/r,
+/obj/structure/chair/bench/church/r{
+	dir = 1
+	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors/town/church/chapel)
 "cmJ" = (
@@ -3580,10 +3582,6 @@
 	icon_state = "weird1"
 	},
 /area/rogue/indoors/town)
-"dTc" = (
-/obj/machinery/light/rogue/oven,
-/turf/closed/wall/mineral/rogue/decowood,
-/area/rogue/indoors/town/tavern)
 "dTD" = (
 /obj/effect/landmark/start/villager,
 /turf/open/floor/rogue/dirt,
@@ -10027,7 +10025,9 @@
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors/town/roofs)
 "kWL" = (
-/obj/structure/chair/bench/church/mid,
+/obj/structure/chair/bench/church/mid{
+	dir = 1
+	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors/town/church/chapel)
 "kWT" = (
@@ -12610,6 +12610,7 @@
 /obj/structure/table/wood{
 	icon_state = "longtable"
 	},
+/obj/item/keyring/koboldrooms,
 /turf/open/floor/rogue/churchrough,
 /area/rogue/under/town/basement)
 "nXT" = (
@@ -13856,7 +13857,9 @@
 /turf/open/floor/rogue/blocks/paving,
 /area/rogue/under/town/basement)
 "pnp" = (
-/obj/structure/chair/bench/church,
+/obj/structure/chair/bench/church{
+	dir = 1
+	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors/town/church/chapel)
 "pog" = (
@@ -14477,7 +14480,6 @@
 	lockid = "kobolddungeon";
 	locked = 1
 	},
-/obj/machinery/door/airlock/plasma,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/under/town/basement)
 "qdK" = (
@@ -21360,6 +21362,10 @@
 /obj/structure/chair/bench/couch/r,
 /turf/open/floor/rogue/concrete,
 /area/rogue/indoors/town/shop)
+"yki" = (
+/obj/machinery/light/rogue/oven,
+/turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/tavern)
 "ykm" = (
 /obj/structure/stairs{
 	dir = 8
@@ -276978,8 +276984,8 @@ bRz
 bRz
 odL
 odL
-dTc
-uFR
+wNn
+yki
 uFR
 uFR
 uFR
