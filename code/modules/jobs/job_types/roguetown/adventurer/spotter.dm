@@ -13,7 +13,6 @@
 	outfit = null
 	outfit_female = null
 	bypass_lastclass = TRUE
-	bypass_jobban = FALSE
 	display_order = JDO_SPOTTER
 	give_bank_account = FALSE
 	min_pq = 4
