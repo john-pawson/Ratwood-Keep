@@ -279,6 +279,61 @@
 	swingdelay = 12
 	clickcd = 14
 
+/obj/item/rogueweapon/trident
+	force = 18
+	force_wielded = 25
+	possible_item_intents = list(/datum/intent/spear/thrust/trident, SPEAR_BASH)
+	gripped_intents = list(/datum/intent/spear/thrust/trident, /datum/intent/spear/thrust/trident/pick, SPEAR_BASH)
+	slot_flags = ITEM_SLOT_BACK
+	name = "trident"
+	desc = "A polearm with three ends. Smaller reach but faster than most polearms."
+	icon_state = "trident"
+	icon = 'icons/roguetown/weapons/64.dmi'
+	pixel_y = -16
+	pixel_x = -16
+	inhand_x_dimension = 64
+	inhand_y_dimension = 64
+	bigboy = TRUE
+	gripsprite = FALSE
+	wlength = WLENGTH_GREAT
+	w_class = WEIGHT_CLASS_BULKY
+	minstr = 7
+	max_blade_int = 150
+	anvilrepair = /datum/skill/craft/weaponsmithing
+	smeltresult = /obj/item/ingot/iron
+	associated_skill = /datum/skill/combat/polearms
+	blade_dulling = DULLING_BASHCHOP
+	walking_stick = FALSE
+	wdefense = 5
+	thrown_bclass = BCLASS_STAB
+	throwforce = 25
+
+/obj/item/rogueweapon/trident/getonmobprop(tag)
+	. = ..()
+	if(tag)
+		switch(tag)
+			if("gen")
+				return list("shrink" = 0.6,"sx" = -7,"sy" = 2,"nx" = 7,"ny" = 3,"wx" = -2,"wy" = 1,"ex" = 1,"ey" = 1,"northabove" = 0,"southabove" = 1,"eastabove" = 1,"westabove" = 0,"nturn" = -38,"sturn" = 37,"wturn" = 30,"eturn" = -30,"nflip" = 0,"sflip" = 8,"wflip" = 8,"eflip" = 0)
+			if("wielded")
+				return list("shrink" = 0.6,"sx" = 5,"sy" = -3,"nx" = -5,"ny" = -2,"wx" = -5,"wy" = -1,"ex" = 3,"ey" = -2,"northabove" = 0,"southabove" = 1,"eastabove" = 1,"westabove" = 0,"nturn" = -37,"sturn" = 37,"wturn" = 16,"eturn" = -22,"nflip" = 8,"sflip" = 0,"wflip" = 8,"eflip" = 0)				
+			if("onbelt")
+				return list("shrink" = 0.3,"sx" = -2,"sy" = -5,"nx" = 4,"ny" = -5,"wx" = 0,"wy" = -5,"ex" = 2,"ey" = -5,"nturn" = 0,"sturn" = 0,"wturn" = 0,"eturn" = 0,"nflip" = 0,"sflip" = 0,"wflip" = 0,"eflip" = 0,"northabove" = 0,"southabove" = 1,"eastabove" = 1,"westabove" = 0)
+
+/datum/intent/spear/thrust/trident
+	reach = 1
+	chargetime = 0
+	penfactor = 30
+	clickcd = 10
+
+/datum/intent/spear/thrust/trident/pick
+	name = "trident imaple"
+	icon_state = "inpick"
+	attack_verb = list ("stabs", "impales")
+	penfactor = 80
+	swingdelay = 12
+	clickcd = 14
+	damfactor = 1.2
+
 /obj/item/rogueweapon/greatsword
 	force = 12
 	force_wielded = 30
@@ -327,3 +382,53 @@
 
 /datum/intent/sword/thrust/zwei
 	reach = 2
+
+/obj/item/rogueweapon/kanabo
+	force = 25
+	force_wielded = 45
+	possible_item_intents = list(/datum/intent/mace/strike/kanabo)
+	gripped_intents = list(/datum/intent/mace/strike/kanabo, /datum/intent/mace/smash/kanabo, SPEAR_BASH)
+	name = "kanabo"
+	desc = "The best way to describe this is a log with a handle and spikes. Unimaginably heavy."
+	icon_state = "kanabo"
+	icon = 'icons/roguetown/weapons/64.dmi'
+	sharpness = IS_BLUNT
+	bigboy = TRUE
+	gripsprite = TRUE
+	wlength = WLENGTH_GREAT
+	w_class = WEIGHT_CLASS_BULKY
+	associated_skill = /datum/skill/combat/maces
+	anvilrepair = /datum/skill/craft/weaponsmithing
+	smeltresult = /obj/item/ingot/iron
+	parrysound = list('sound/combat/parry/parrygen.ogg')
+	swingsound = BLUNTWOOSH_MED
+	minstr = 16 
+	wdefense = 4
+	wbalance = -1
+	blade_dulling = DULLING_BASHCHOP
+
+/datum/intent/mace/strike/kanabo
+	name = "strike"
+	hitsound = list('sound/combat/hits/blunt/woodblunt (1).ogg', 'sound/combat/hits/blunt/woodblunt (2).ogg')
+	chargetime = 0
+	penfactor = 15
+	swingdelay = 6
+	icon_state = "instrike"
+	item_d_type = "blunt"
+	damfactor = 0.8
+
+/datum/intent/mace/smash/kanabo
+	swingdelay = 14
+	penfactor = 90
+	hitsound = list('sound/combat/hits/blunt/woodblunt (1).ogg', 'sound/combat/hits/blunt/woodblunt (2).ogg')
+
+/obj/item/rogueweapon/kanabo/getonmobprop(tag)
+	. = ..()
+	if(tag)
+		switch(tag)
+			if("gen")
+				return list("shrink" = 0.6,"sx" = -6,"sy" = 6,"nx" = 6,"ny" = 7,"wx" = 0,"wy" = 5,"ex" = -1,"ey" = 7,"northabove" = 0,"southabove" = 1,"eastabove" = 1,"westabove" = 0,"nturn" = -50,"sturn" = 40,"wturn" = 50,"eturn" = -50,"nflip" = 0,"sflip" = 8,"wflip" = 8,"eflip" = 0)
+			if("wielded")
+				return list("shrink" = 0.6,"sx" = 9,"sy" = -4,"nx" = -7,"ny" = 1,"wx" = -9,"wy" = 2,"ex" = 10,"ey" = 2,"northabove" = 0,"southabove" = 1,"eastabove" = 1,"westabove" = 0,"nturn" = 5,"sturn" = -190,"wturn" = -170,"eturn" = -10,"nflip" = 8,"sflip" = 8,"wflip" = 1,"eflip" = 0)
+			if("onbelt")
+				return list("shrink" = 0.3,"sx" = -2,"sy" = -5,"nx" = 4,"ny" = -5,"wx" = 0,"wy" = -5,"ex" = 2,"ey" = -5,"nturn" = 0,"sturn" = 0,"wturn" = 0,"eturn" = 0,"nflip" = 0,"sflip" = 0,"wflip" = 0,"eflip" = 0,"northabove" = 0,"southabove" = 1,"eastabove" = 1,"westabove" = 0)
