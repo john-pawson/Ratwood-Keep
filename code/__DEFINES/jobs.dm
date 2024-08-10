@@ -301,14 +301,12 @@
 #define JDO_GOBLINGUARD 38
 #define JDO_GOBLINSMITH 39
 
-<<<<<<< HEAD
 #define JDO_CHIEFTAIN 40
 #define JDO_DRAGONGUARD 41
 #define JDO_DEDICANT 42
 #define JDO_SPOTTER 43
 #define JDO_TOILER 43.1
 
-=======
 #define MANOR_ROLES \
 	/datum/job/roguetown/jester,\
 	/datum/job/roguetown/veteran,\
@@ -384,4 +382,3 @@
 	/datum/job/roguetown/manorguard,\
 	/datum/job/roguetown/sheriff,\
 	/datum/job/roguetown/guardsman
->>>>>>> main
