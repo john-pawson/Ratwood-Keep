@@ -321,7 +321,7 @@
 	name = "Kanabo"
 	req_bar = /obj/item/ingot/iron
 	additional_items = list(/obj/item/grown/log/tree)
-	created_items = /obj/item/rogueweapon/kanabo
+	created_item = /obj/item/rogueweapon/kanabo
 	i_type = "Weapons"
 
 /// SHIELDS
