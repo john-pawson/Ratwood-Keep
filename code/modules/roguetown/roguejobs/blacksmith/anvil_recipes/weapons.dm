@@ -295,6 +295,14 @@
 	craftdiff = 2
 	i_type = "Weapons"
 
+/datum/anvil_recipe/weapons/trident
+	name = "Trident (+1 Small Log)"
+	req_bar = /obj/item/ingot/steel
+	additional_items = list(/obj/item/grown/log/tree/small)
+	created_item = /obj/item/rogueweapon/trident
+	craftdiff = 2
+	i_type = "Weapons"
+	
 /datum/anvil_recipe/weapons/polemace
 	name = "Warclub (+1 Small Log)"
 	req_bar = /obj/item/ingot/iron
@@ -307,6 +315,13 @@
 	req_bar = /obj/item/ingot/steel
 	additional_items = list(/obj/item/grown/log/tree/small)
 	created_item = /obj/item/rogueweapon/mace/goden/steel
+	i_type = "Weapons"
+
+/datum/anvil_recipe/weapons/kanabo
+	name = "Kanabo"
+	req_bar = /obj/item/ingot/iron
+	additional_items = list(/obj/item/grown/log/tree)
+	created_items = /obj/item/rogueweapon/kanabo
 	i_type = "Weapons"
 
 /// SHIELDS
@@ -325,6 +340,14 @@
 	req_bar = /obj/item/ingot/iron
 	additional_items = list(/obj/item/grown/log/tree/small)
 	created_item = /obj/item/rogueweapon/shield/tower
+	i_type = "Weapons"
+
+/datum/anvil_recipe/weapons/reinfshield
+	name = "Reinforced shield (+1 Small Log)"
+	appro_skill = /datum/skill/craft/armorsmithing
+	req_bar = /obj/item/ingot/iron
+	additional_items = list(/obj/item/grown/log/tree/small)
+	created_item = /obj/item/rogueweapon/shield/reinforced
 	i_type = "Weapons"
 
 /// CROSSBOWS
@@ -357,4 +380,6 @@
 	additional_items = list(/obj/item/ingot/iron, /obj/item/ingot/steel)	
 	created_item = /obj/item/rogueweapon/sword/long/exe
 	i_type = "Weapons"
+
+// KOBOLD WEAPONS
 
