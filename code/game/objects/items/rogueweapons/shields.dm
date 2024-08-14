@@ -106,8 +106,8 @@
 	name = "reinforced shield"
 	desc = "A wooden shield reinforced with metal. Harder to break while still easy to carry."
 	icon_state = "reinfsh"
-	force = 20
-	throwforce = 10
+	force = 25
+	throwforce = 15
 	throw_speed = 1
 	throw_range = 3
 	wdefense = 15
