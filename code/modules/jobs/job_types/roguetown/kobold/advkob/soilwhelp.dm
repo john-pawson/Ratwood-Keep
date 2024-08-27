@@ -24,8 +24,7 @@
 	armor = /obj/item/clothing/suit/roguetown/shirt/robe/dendor
 	mouth = /obj/item/roguekey/koboldgate
 	if(H.mind)
-		H.mind.adjust_skillrank(/datum/skill/misc/sewing, 1, TRUE)
-		H.mind.adjust_skillrank(/datum/skill/misc/weaving, 1, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/misc/sewing, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/medicine, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/unarmed, 3, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/wrestling, 3, TRUE)

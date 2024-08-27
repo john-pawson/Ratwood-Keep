@@ -28,8 +28,7 @@
 	beltl = /obj/item/needle
 	backpack_contents = list(/obj/item/natural/cloth = 1, /obj/item/needle = 1, /obj/item/natural/bundle/fibers/full = 1)
 	if(H.mind)
-		H.mind.adjust_skillrank(/datum/skill/misc/sewing, 4, TRUE)
-		H.mind.adjust_skillrank(/datum/skill/misc/weaving, 4, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/misc/sewing, 5, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/craft/tanning, 3, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/knives, 2, TRUE)

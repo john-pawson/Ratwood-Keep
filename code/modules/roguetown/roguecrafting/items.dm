@@ -118,9 +118,9 @@
 				/obj/item/natural/stone = 1)
 	craftdiff = 3
 
-/datum/crafting_recipe/roguetown/stonespear
+/datum/crafting_recipe/roguetown/kanaboimp
 	name = "improvised kanabo"
-	result = /obj/item/rogueweapon/polearm/kanabo
+	result = /obj/item/rogueweapon/kanabo/improvised
 	reqs = list(/obj/item/grown/log = 1,
 				/obj/item/natural/stone = 5)
 				
