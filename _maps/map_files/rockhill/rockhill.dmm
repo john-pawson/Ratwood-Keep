@@ -1290,9 +1290,15 @@
 /area/rogue/indoors/town)
 "bix" = (
 /obj/structure/rack/rogue,
-/obj/item/rogueweapon/spear,
-/obj/item/rogueweapon/spear,
-/obj/item/rogueweapon/spear,
+/obj/item/rogueweapon/spear{
+	sellprice = 0
+	},
+/obj/item/rogueweapon/spear{
+	sellprice = 0
+	},
+/obj/item/rogueweapon/spear{
+	sellprice = 0
+	},
 /turf/open/floor/rogue/blocks,
 /area/rogue/under/town/basement)
 "biC" = (
@@ -1495,11 +1501,21 @@
 /area/rogue/outdoors/bog)
 "brV" = (
 /obj/structure/rack/rogue,
-/obj/item/clothing/suit/roguetown/armor/gambeson,
-/obj/item/clothing/suit/roguetown/armor/gambeson,
-/obj/item/clothing/suit/roguetown/armor/gambeson,
-/obj/item/clothing/suit/roguetown/armor/gambeson,
-/obj/item/clothing/suit/roguetown/armor/gambeson,
+/obj/item/clothing/suit/roguetown/armor/gambeson{
+	sellprice = 0
+	},
+/obj/item/clothing/suit/roguetown/armor/gambeson{
+	sellprice = 0
+	},
+/obj/item/clothing/suit/roguetown/armor/gambeson{
+	sellprice = 0
+	},
+/obj/item/clothing/suit/roguetown/armor/gambeson{
+	sellprice = 0
+	},
+/obj/item/clothing/suit/roguetown/armor/gambeson{
+	sellprice = 0
+	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/basement)
 "btk" = (
@@ -2313,12 +2329,24 @@
 /area/rogue/indoors/town/tavern)
 "cij" = (
 /obj/structure/rack/rogue,
-/obj/item/clothing/suit/roguetown/armor/gambeson,
-/obj/item/clothing/suit/roguetown/armor/gambeson,
-/obj/item/clothing/suit/roguetown/armor/gambeson,
-/obj/item/clothing/suit/roguetown/armor/gambeson,
-/obj/item/clothing/suit/roguetown/armor/gambeson,
-/obj/item/clothing/suit/roguetown/armor/gambeson,
+/obj/item/clothing/suit/roguetown/armor/gambeson{
+	sellprice = 0
+	},
+/obj/item/clothing/suit/roguetown/armor/gambeson{
+	sellprice = 0
+	},
+/obj/item/clothing/suit/roguetown/armor/gambeson{
+	sellprice = 0
+	},
+/obj/item/clothing/suit/roguetown/armor/gambeson{
+	sellprice = 0
+	},
+/obj/item/clothing/suit/roguetown/armor/gambeson{
+	sellprice = 0
+	},
+/obj/item/clothing/suit/roguetown/armor/gambeson{
+	sellprice = 0
+	},
 /turf/open/floor/rogue/blocks,
 /area/rogue/under/town/basement)
 "cio" = (
@@ -2557,7 +2585,9 @@
 /area/rogue/outdoors/bog)
 "csk" = (
 /obj/structure/rack/rogue,
-/obj/item/rogueweapon/mace,
+/obj/item/rogueweapon/mace{
+	sellprice = 0
+	},
 /turf/open/floor/rogue/blocks,
 /area/rogue/under/town/basement)
 "csA" = (
@@ -3368,9 +3398,15 @@
 /area/rogue/indoors/town/church)
 "daI" = (
 /obj/structure/rack/rogue,
-/obj/item/clothing/suit/roguetown/armor/plate/half,
-/obj/item/clothing/suit/roguetown/armor/plate/half,
-/obj/item/clothing/suit/roguetown/armor/plate/half,
+/obj/item/clothing/suit/roguetown/armor/plate/half{
+	sellprice = 0
+	},
+/obj/item/clothing/suit/roguetown/armor/plate/half{
+	sellprice = 0
+	},
+/obj/item/clothing/suit/roguetown/armor/plate/half{
+	sellprice = 0
+	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/basement)
 "daO" = (
@@ -3515,8 +3551,12 @@
 /area/rogue/under/town/basement)
 "dhN" = (
 /obj/structure/rack/rogue,
-/obj/item/clothing/head/roguetown/helmet,
-/obj/item/clothing/head/roguetown/helmet,
+/obj/item/clothing/head/roguetown/helmet{
+	sellprice = 0
+	},
+/obj/item/clothing/head/roguetown/helmet{
+	sellprice = 0
+	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/basement)
 "dhU" = (
@@ -3601,8 +3641,12 @@
 /area/rogue/indoors/town/church)
 "dlu" = (
 /obj/structure/rack/rogue,
-/obj/item/clothing/under/roguetown/chainlegs,
-/obj/item/clothing/under/roguetown/chainlegs,
+/obj/item/clothing/under/roguetown/chainlegs{
+	sellprice = 0
+	},
+/obj/item/clothing/under/roguetown/chainlegs{
+	sellprice = 0
+	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/basement)
 "dlx" = (
@@ -5968,12 +6012,24 @@
 /area/rogue/indoors)
 "fmm" = (
 /obj/structure/rack/rogue,
-/obj/item/clothing/neck/roguetown/chaincoif/iron,
-/obj/item/clothing/neck/roguetown/chaincoif/iron,
-/obj/item/clothing/neck/roguetown/chaincoif/iron,
-/obj/item/clothing/neck/roguetown/chaincoif/iron,
-/obj/item/clothing/neck/roguetown/chaincoif/iron,
-/obj/item/clothing/neck/roguetown/chaincoif/iron,
+/obj/item/clothing/neck/roguetown/chaincoif/iron{
+	sellprice = 0
+	},
+/obj/item/clothing/neck/roguetown/chaincoif/iron{
+	sellprice = 0
+	},
+/obj/item/clothing/neck/roguetown/chaincoif/iron{
+	sellprice = 0
+	},
+/obj/item/clothing/neck/roguetown/chaincoif/iron{
+	sellprice = 0
+	},
+/obj/item/clothing/neck/roguetown/chaincoif/iron{
+	sellprice = 0
+	},
+/obj/item/clothing/neck/roguetown/chaincoif/iron{
+	sellprice = 0
+	},
 /turf/open/floor/rogue/blocks,
 /area/rogue/under/town/basement)
 "fmR" = (
@@ -10872,8 +10928,12 @@
 /area/rogue/under/town/basement)
 "jMA" = (
 /obj/structure/rack/rogue,
-/obj/item/gun/ballistic/revolver/grenadelauncher/crossbow,
-/obj/item/gun/ballistic/revolver/grenadelauncher/crossbow,
+/obj/item/gun/ballistic/revolver/grenadelauncher/crossbow{
+	sellprice = 0
+	},
+/obj/item/gun/ballistic/revolver/grenadelauncher/crossbow{
+	sellprice = 0
+	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/basement)
 "jNi" = (
@@ -11675,9 +11735,13 @@
 /area/rogue/under/town/basement)
 "kzT" = (
 /obj/structure/rack/rogue,
-/obj/item/clothing/head/roguetown/helmet/kettle,
-/obj/item/clothing/head/roguetown/helmet/kettle,
 /obj/machinery/light/rogue/torchholder/c,
+/obj/item/clothing/head/roguetown/helmet/kettle{
+	sellprice = 0
+	},
+/obj/item/clothing/head/roguetown/helmet/kettle{
+	sellprice = 0
+	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/basement)
 "kAI" = (
@@ -13560,13 +13624,23 @@
 /area/rogue/indoors/town/manor)
 "mpw" = (
 /obj/structure/rack/rogue,
-/obj/item/rogueweapon/sword/iron,
-/obj/item/rogueweapon/sword/iron,
-/obj/item/rogueweapon/sword/iron,
-/obj/item/rogueweapon/sword/iron,
-/obj/item/rogueweapon/sword/iron,
 /obj/machinery/light/rogue/torchholder{
 	pixel_y = 26
+	},
+/obj/item/rogueweapon/sword/iron{
+	sellprice = 0
+	},
+/obj/item/rogueweapon/sword/iron{
+	sellprice = 0
+	},
+/obj/item/rogueweapon/sword/iron{
+	sellprice = 0
+	},
+/obj/item/rogueweapon/sword/iron{
+	sellprice = 0
+	},
+/obj/item/rogueweapon/sword/iron{
+	sellprice = 0
 	},
 /turf/open/floor/rogue/blocks,
 /area/rogue/under/town/basement)
@@ -14089,8 +14163,12 @@
 /area/rogue/indoors/town/bath)
 "mMO" = (
 /obj/structure/rack/rogue,
-/obj/item/rogueweapon/mace/cudgel,
-/obj/item/rogueweapon/mace/cudgel,
+/obj/item/rogueweapon/mace/cudgel{
+	sellprice = 0
+	},
+/obj/item/rogueweapon/mace/cudgel{
+	sellprice = 0
+	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/basement)
 "mNb" = (
@@ -15492,8 +15570,12 @@
 /area/rogue/indoors/town/manor)
 "nZt" = (
 /obj/structure/rack/rogue,
-/obj/item/rogueweapon/spear/billhook,
-/obj/item/rogueweapon/spear/billhook,
+/obj/item/rogueweapon/spear/billhook{
+	sellprice = 0
+	},
+/obj/item/rogueweapon/spear/billhook{
+	sellprice = 0
+	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/basement)
 "nZw" = (
@@ -16446,8 +16528,12 @@
 /area/rogue/indoors)
 "oMt" = (
 /obj/structure/rack/rogue,
-/obj/item/rogueweapon/mace/cudgel,
-/obj/item/rogueweapon/mace/cudgel,
+/obj/item/rogueweapon/mace/cudgel{
+	sellprice = 0
+	},
+/obj/item/rogueweapon/mace/cudgel{
+	sellprice = 0
+	},
 /turf/open/floor/rogue/blocks,
 /area/rogue/under/town/basement)
 "oMD" = (
@@ -17572,11 +17658,17 @@
 /area/rogue/outdoors/rtfield)
 "pMw" = (
 /obj/structure/rack/rogue,
-/obj/item/rogueweapon/flail/sflail,
-/obj/item/rogueweapon/flail/sflail,
-/obj/item/rogueweapon/flail/sflail,
 /obj/machinery/light/rogue/torchholder{
 	dir = 1
+	},
+/obj/item/rogueweapon/flail/sflail{
+	sellprice = 0
+	},
+/obj/item/rogueweapon/flail/sflail{
+	sellprice = 0
+	},
+/obj/item/rogueweapon/flail/sflail{
+	sellprice = 0
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/basement)
@@ -18255,8 +18347,12 @@
 /area/rogue/under/town/basement)
 "quC" = (
 /obj/structure/rack/rogue,
-/obj/item/clothing/head/roguetown/helmet/skullcap,
-/obj/item/clothing/head/roguetown/helmet/skullcap,
+/obj/item/clothing/head/roguetown/helmet/skullcap{
+	sellprice = 0
+	},
+/obj/item/clothing/head/roguetown/helmet/skullcap{
+	sellprice = 0
+	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/basement)
 "quT" = (
@@ -19871,7 +19967,9 @@
 /obj/structure/rack/rogue,
 /obj/machinery/light/rogue/torchholder/c,
 /obj/item/clothing/neck/roguetown/gorget,
-/obj/item/clothing/neck/roguetown/gorget,
+/obj/item/clothing/neck/roguetown/gorget{
+	sellprice = 0
+	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/basement)
 "rXu" = (
@@ -23697,8 +23795,12 @@
 /area/rogue/outdoors/rtfield)
 "vse" = (
 /obj/structure/rack/rogue,
-/obj/item/rogueweapon/sword/iron/messer,
-/obj/item/rogueweapon/sword/iron/messer,
+/obj/item/rogueweapon/sword/iron/messer{
+	sellprice = 0
+	},
+/obj/item/rogueweapon/sword/iron/messer{
+	sellprice = 0
+	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/basement)
 "vsf" = (
@@ -24397,9 +24499,15 @@
 /area/rogue/outdoors/town)
 "vZv" = (
 /obj/structure/rack/rogue,
-/obj/item/clothing/neck/roguetown/chaincoif,
-/obj/item/clothing/neck/roguetown/chaincoif,
-/obj/item/clothing/neck/roguetown/chaincoif,
+/obj/item/clothing/neck/roguetown/chaincoif{
+	sellprice = 0
+	},
+/obj/item/clothing/neck/roguetown/chaincoif{
+	sellprice = 0
+	},
+/obj/item/clothing/neck/roguetown/chaincoif{
+	sellprice = 0
+	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/basement)
 "vZE" = (
@@ -25481,9 +25589,15 @@
 /area/rogue/outdoors/rtfield)
 "wZJ" = (
 /obj/structure/rack/rogue,
-/obj/item/rogueweapon/sword,
-/obj/item/rogueweapon/sword,
-/obj/item/rogueweapon/sword,
+/obj/item/rogueweapon/sword{
+	sellprice = 0
+	},
+/obj/item/rogueweapon/sword{
+	sellprice = 0
+	},
+/obj/item/rogueweapon/sword{
+	sellprice = 0
+	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/basement)
 "xaa" = (
